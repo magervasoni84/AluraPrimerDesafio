@@ -1,31 +1,72 @@
-body{
-	background: #cccccccc
-	;
+body {
+	display: row;
+/* 	position: relative;
+	width: 1440px;
+	height: 1024px; */
+
+	/* Light blue/light-blue-100 */
+	background: #F3F5FC;
+}
+
+.logo {
+	/* Svg descargado usando el puglin SVG motion */
+
+	width: 5%;	
+}
+.inputMensaje{
+	
+	/* width: 55%; */
+}
+
+.inputMensaje textarea{
+	background: #F3F5FC;
+	border: none;
+	/* width: 55%; */
+	
+	font-size: 20px;
 }
 
 
-.box{
-	font-family: sans-serif; 
-	color: #ffffff; 
-	font-size: 18px; 
-	font-weight: 400; 
-	text-align: center; 
-	background: #889ccf; 
-	margin: 0 0 25px; 
-	overflow: hidden; 
-	padding: 20px; 
-	border: 1px solid #5878ca;
+
+.bt {
+	box-sizing: border-box;
+
+	/* Auto layout */
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 24px;
+	gap: 8px;
+
+
+	height: 67px;
+
+	/* Light gray */
+	background: #D8DFE8;
+
+	/* Dark blue/dark-blue-300 */
+	border: 1px solid #0A3871;
+	border-radius: 24px;
+
+	/* Inside auto layout */
+	flex: none;
+	order: 1;
+	flex-grow: 0;
 }
 
-.bt{
-	font-family: sans-serif; 
-	color: #ffffff; 
-	font-size: 18px; 
-	font-weight: 400; 
-	text-align: center; 
-	background: #889ccf; 
-	margin: 0 0 25px; 
-	overflow: hidden; 
-	padding: 20px; 
-	border: 1px solid #5878ca;
+.showMensaje{
+	/* width: 25%; */
+	
+	background: white;
+	border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+footer p{
+	width: 100%;
+	text-align: center;
+	font-style: italic;
+	margin: 30px 0 ;	
 }
