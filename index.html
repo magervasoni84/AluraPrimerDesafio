@@ -11,38 +11,44 @@
 
 <body>
 
-    <head>
-
+    <header>
         <img class="logo" src="img/Logo.svg" alt="logo">
+    </header>
+    <main>
+        <section class="inputMensaje">
 
-    </head>
+            <textarea class="textAreaInput" name="" id="" cols="" rows="15">Ingrese el texto aqui</textarea>
 
-    <section class="inputMensaje">
+            <p>Solo letras minúsculas y sin acentos</p>
+            <div class="bt">
+                <input type="button" class="btn-encriptar" value="Encriptar"     >
+                <input type="button" class="btn-desencriptar"  value="Desencriptar"  >
+            </div>
 
-        <textarea name="" id="" cols="" rows="20">Ingrese el texto aqui</textarea>
+        </section>
 
-        <p>Solo letras minúsculas y sin acentos</p>
-        <div class="bt">
-            <button>Encriptar</button>
-            <button>Desencriptar</button>
-        </div>
-    </section>
+        <section class="showMensaje">
+            <div class="munieca">
+                <img src="img/Muñeco.svg" alt="Imagen Chica">
+            </div>
+            <div class="texto-munieca">
+                <h3>Ningún mensaje fue encontrado</h3>
+            </div>
 
-    <section class="showMensaje">
-        <img class="munieca" src="img/Muñeco.svg" alt="Imagen Chica">
-        <textarea class="textDesc" name="" id="" cols="" rows="5"></textarea>
-        
-    </section>
+
+            <textarea class="textAreaOut" name="" id="" cols="" rows="7">
+
+            Ingresa el texto que desees encriptar o desencriptar.
+        </textarea>
+
+
+        </section>
+
+    </main>
     <footer>
         <p>Gervasoni Mariano Desafio 1° Alura</p>
     </footer>
-
-
-
-
-
-    <!-- <script>
-</script> -->
 </body>
 
+    <script src="encriptarDesencritar.js"></script>
 </html>
