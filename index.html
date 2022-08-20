@@ -14,6 +14,7 @@
     <header>
         <img class="logo" src="img/Logo.svg" alt="logo">
     </header>
+    
     <main>
         <section class="inputMensaje">
 
@@ -21,25 +22,30 @@
 
             <p>Solo letras minúsculas y sin acentos</p>
             <div class="bt">
-                <input type="button" class="btn-encriptar" value="Encriptar"     >
-                <input type="button" class="btn-desencriptar"  value="Desencriptar"  >
+                <input type="button" class="btn-encriptar" value="Encriptar">
+                <input type="button" class="btn-desencriptar" value="Desencriptar">
             </div>
 
         </section>
 
         <section class="showMensaje">
-            <div class="munieca">
+            <div class="munieca ">
                 <img src="img/Muñeco.svg" alt="Imagen Chica">
             </div>
-            <div class="texto-munieca">
+
+            <div class="texto-munieca ">
                 <h3>Ningún mensaje fue encontrado</h3>
             </div>
 
+            
+            <div class="resultado">
+                <h3>Mensaje Encriptado</h3>
+                <p class="texto-resultado"></p>
+            </div>
 
-            <textarea class="textAreaOut" name="" id="" cols="" rows="7">
-
-            Ingresa el texto que desees encriptar o desencriptar.
-        </textarea>
+            <div class="copiar">
+                <input type="button" class="btn-copiar" value="Copiar">
+            </div>
 
 
         </section>
@@ -50,5 +56,6 @@
     </footer>
 </body>
 
-    <script src="encriptarDesencritar.js"></script>
+<script src="encriptarDesencritar.js"></script>
+
 </html>
